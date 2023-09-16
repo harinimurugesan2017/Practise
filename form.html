@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>online Registration Form</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="style_form.css">
+</head>
+<body>
+
+
+    <div class="demo2">
+        
+        <h1>Online Application Form</h1>
+
+    <form>
+         <label for="name">First Name</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter First Name"><br><br>
+        <label for="lname">Last Name</label><br>
+        <input type="text" id="lname" name="lname" placeholder="Enter Last Name"><br><br>
+        
+    
+        <label for="DOB">Date of Birth</label><br>
+        <input type="date" id="DOB" name="DOB"><br><br>
+        <label for="password">Create password</label><br>
+        <input type="password" id="password" name="password" placeholder="Enter password"><br><br>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter Email"><br><br>
+        <label for="phone">Phone Number</label><br>
+        <input type="text" id="phone"  name="phone"  placeholder="Enter Contact No"><br><br>
+        <label>Qualification</label>
+        <select name="degree" id="degree">
+            <option value="BE/BTECH">BE/BTECH</option>
+            <option value="BSC">BSc</option>
+            <option vaue="Bca">Bca</option>
+            <option value="others">others</option>
+        </select><br><br>
+        <label for="area of interest">Choose your area of interest</label><br>
+        <input type="radio" name="interest" id="interest" value="coding">
+        <label for="coding">Coding</label><br>
+        <input type="radio" name="interest"id="interest" value="Non Coding">
+        <label for="Non coding">Non coding</label><br><br>
+
+        <label for="add">Insert resume</label><br>
+        <input type="file" id="add" name="add"><br><br>
+        <button  type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+    </div>
+</body>
+</html>
